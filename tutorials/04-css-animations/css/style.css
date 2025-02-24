@@ -1,0 +1,56 @@
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+*,
+*:before,
+:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+
+body {
+   font-size: 1.6rem;
+
+  line-height: 1.6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes stretching {
+    0% {
+      width: 100px;
+    }
+    100% {
+      width: 200px;
+    }
+  }
+
+ 
+  .button {
+    animation-name: stretching;
+    animation-duration: 1s;
+    display: inline-block;
+    background-color: aquamarine;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(5, end);
+    transform: skew(30deg, 20deg);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(139,213,150,1) 50%, rgba(0,212,255,1) 100%);
+  }
+  
