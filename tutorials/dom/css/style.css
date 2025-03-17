@@ -41,9 +41,6 @@ html {
     text-align: center;
  }
  
- main {
-
- }
 
 .image-div{
     display: inline-block;
@@ -61,7 +58,7 @@ html {
     right: 20px;
 }
 #image-2 {
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 150px;
 }
